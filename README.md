@@ -22,10 +22,10 @@ A **static jewelry website** built with **HTML, CSS, and JavaScript** to showcas
 jewelry-website/
 │── index.html        # Homepage
 │── about.html        # About page
-│── collections.html  # Jewelry collection page
+│── cart.html  # Jewelry cart page
 │── contact.html      # Contact page with form
 │── css/
-│   └── style.css     # Stylesheet
+│   └── style.css     # Stylesheet and color filesS
 │── js/
 │   └── script.js     # Interactivity & form validation
 │── images/           # Jewelry images and icons
@@ -62,7 +62,7 @@ jewelry-website/
 
 ## 📸 Preview
 
-*(Insert screenshots or a live demo link here)*
+(https://mansurthapa.github.io/static-jewelerywebsite/)
 
 ---
 
