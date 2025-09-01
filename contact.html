@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewellery Website Landing Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header id="home">
+        <div class="container">
+            <div class="brand">
+              <img src="img/Infinity_Logo_Gold.jpeg" style="width: 40px"/>
+              <p>Infinity Golden Jewelry</p>
+            </div>
+         </div>
+
+           <!-- NAV BAR -->
+           <nav>
+            <!-- RESPONSIVE BAR FOR SMALL SCREENS -->
+            <div class="sidebars">  
+              <i class="fa fa-bars"></i>
+            </div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="shop.html">Shop Jewellery</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#id01" data-toggle="modal" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><i class="fa fa-user-circle-o"></i>Login</a></li>
+              <li><a href="cart.html"><i class="fa fa-cart-arrow-down"></i>Cart</a></li>
+            </ul> 
+        
+          </nav>
+    </header>
+    <section class="section contact" id="contact">
+        <div class="container">
+          <div class="section-head">
+              <h2>Contact Us</h2>
+              <p>Contact Us for More Details</p>
+          </div>
+
+          <form>
+            <input type='text' name="firstname" placeholder="Your First Name" required>
+
+            <input type="text" name="lastname" placeholder="Your Last Name" required>
+
+            <input type="text" name="phone" placeholder="Your Phone Number" required>
+
+            <input type="text" name="email" placeholder="Your Email Address" required>
+
+            <textarea name="message" rows="8" placeholder="Your Message" required></textarea>
+            <br/>
+            <button type="contact-button"> Send </button>
+          </form>
+        </div>
+      </section>
+        <!-- Login section start -->
+<div id="id01" class="modal">
+  
+    <form class="modal-content animate" action="/action_page.php" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="img/avatar.jpg" alt="Avatar" class="avatar">
+      </div>
+  
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+          
+        <button type="submit" class="login">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div>
+  
+   <!-- Login section end -->
+            <!-- Footer start -->
+
+      <footer class="footer section">
+        <div class="footer-container container grid">
+            <!-- FOOTER CONTENT 1 -->
+            <div class="footer-content">
+              <img src="img/Infinity_Logo_Gold.jpeg" style="width: 30px"/>
+              <p>Infinity Golden Jewelry</p>
+
+
+                <p class="footer-discription">Vintage Jewellery <br> for All.</p>
+                <div class="footer-social">
+                    <a class="footer-social-link" href="https://www.facebook.com/mansurthapa"><i class="fa fa-facebook"></i></a>
+                    <a class="footer-social-link" href="https://www.instagram.com/iammansur"><i class="fa fa-instagram"></i></a>
+                    <a class="footer-social-link" href="https://www.twitter.com/mansurthapa21"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+            <!-- FOOTER CONTENT 2 -->
+            <div class="footer-content">
+                <h3 class="footer-title">About</h3>
+                <ul class="footer-links">
+                    <li><a class="footer-link" href="about.html">About Us</a></li>
+                    <li><a class="footer-link" href="contact.html">Customer Support</a></li>
+                    <li><a class="footer-link" href=".newsletter">Subscribe</a></li>
+                </ul>
+            </div>
+            <!-- FOOTER CONTENT 3 -->
+            <div class="footer-content">
+                <h3 class="footer-title">Our Services</h3>
+                <ul class="footer-links">
+                    <li><a class="footer-link" href="shop.html">Shop</a></li>
+                    <li><a class="footer-link" href="blog.html">Blog</a> </li>
+                    <li><a class="footer-link" href="cart.html">cart</a></li>
+                </ul>
+            </div>
+            <!-- FOOTER CONTENT 4 -->
+            <div class="footer-content">
+                <h3 class="footer-title">Our Company</h3>
+
+                <ul class="footer-links">
+                    <li><a class="footer-link" href="">Register</a></li>
+                    <li><a class="footer-link" href="contact.html">Contact Us</a></li>
+                    <li><a class="footer-link" href="about.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <span class="footer-copy">&#169; <span class="main-color">Mansur Thapa</span> All Right reserved, @ 2025 </span>
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</body>    
